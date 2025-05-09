@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void ft_sort_int_tab(int *tab, int size) {
+void ft_sort_int_tab(int *tab, int size)
+{
     for (int i = 0; i < size - 1; i++)
     {
         for (int j = 0; j < size - 1 - i; j++)
@@ -15,7 +16,8 @@ void ft_sort_int_tab(int *tab, int size) {
     }
 }
 
-int	main() {
+int	main()
+{
 	int tab[] = {0, 1, 2, 3, 4};
 	int size = 5;
 

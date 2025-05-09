@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-char *ft_strncpy(char *dest, char *src, unsigned int n) {
+char *ft_strncpy(char *dest, char *src, unsigned int n)
+{
     unsigned int i;
 
     for (i = 0; i < n; i++) {
@@ -14,7 +15,8 @@ char *ft_strncpy(char *dest, char *src, unsigned int n) {
 }
 
 
-int main(void) {
+int main(void)
+{
     char src[] = "Hello, World!";
     char dest[50];
 

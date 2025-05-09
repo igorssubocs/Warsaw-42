@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int ft_str_is_alpha(char *str) {
+int ft_str_is_alpha(char *str)
+{
     int i = 0;
 
     if (str[i] == '\0') {
@@ -18,7 +19,8 @@ int ft_str_is_alpha(char *str) {
     return 1;
 }
 
-int main() {
+int main()
+{
     printf("%d", ft_str_is_alpha("Hello"));
     printf("\n%d", ft_str_is_alpha("Hello123"));
     printf("\n%d", ft_str_is_alpha(""));

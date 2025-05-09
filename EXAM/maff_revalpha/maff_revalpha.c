@@ -18,7 +18,8 @@
 //     return 0;
 // }
 
-int    main(void) {
+int    main(void)
+{
     char  z = 'z';
     char  y = 'Y';
 

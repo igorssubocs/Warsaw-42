@@ -1,7 +1,8 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_ultimate_div_mod(int *a, int *b) {
+void ft_ultimate_div_mod(int *a, int *b)
+{
     int div, mod;
 
     div = *a / *b;
@@ -10,7 +11,8 @@ void ft_ultimate_div_mod(int *a, int *b) {
     *b = mod;
 }
 
-int main(void) {
+int main(void)
+{
     int x = 42;
     int y = 4;
 

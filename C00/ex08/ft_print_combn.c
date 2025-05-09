@@ -1,13 +1,15 @@
 #include <unistd.h>
 
-void print_comb(char *arr, int n, int last) {
+void print_comb(char *arr, int n, int last)
+{
     write(1, arr, n);
     if (!last) {
         write(1, ", ", 2);
     }
 }
 
-void ft_print_combn(int n) {
+void ft_print_combn(int n)
+{
     if (n <= 0 || n >= 10) return;
 
     char arr[n];
@@ -41,6 +43,7 @@ void ft_print_combn(int n) {
     }
 }
 
-int main() {
+int main()
+{
     ft_print_combn(2);
 }

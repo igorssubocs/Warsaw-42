@@ -13,19 +13,21 @@
 
 #include <unistd.h>
 
-int     main(void) {
-    for (char i = '9'; i >= '0'; i--) {
-        write(1, &i, 1);
-    }
-    write(1, "\n", 1);
-}
-
-// int     main(void) {
-//     char i = '9';
-    
-//     while (i >= '0') {
+// int     main(void)
+// {
+//     for (char i = '9'; i >= '0'; i--) {
 //         write(1, &i, 1);
-//         n--;
 //     }
 //     write(1, "\n", 1);
 // }
+
+int     main(void)
+{
+    char i = '9';
+    
+    while (i >= '0') {
+        write(1, &i, 1);
+        i--;
+    }
+    write(1, "\n", 1);
+}

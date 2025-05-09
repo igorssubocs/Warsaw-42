@@ -1,6 +1,7 @@
 #include <unistd.h>
 
-void	ft_putchar(char c) {
+void	ft_putchar(char c)
+{
 	write(1, &c, 1);
 }
 
@@ -12,12 +13,14 @@ void	ft_putchar(char c) {
 //     }
 // }
 
-void    ft_is_negative(int n) {
+void    ft_is_negative(int n)
+{
     char i = (n < 0) ? 'N' : 'P';
     write(1, &i, 1);
 }
 
-int	main() {
+int	main()
+{
     ft_is_negative(0);
     ft_putchar('\n');
     ft_is_negative(-1);

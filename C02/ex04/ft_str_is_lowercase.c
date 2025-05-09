@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int ft_str_is_lowercase(char *str) {
+int ft_str_is_lowercase(char *str)
+{
     int i = 0;
 
     if (str[i] == '\0') {
@@ -17,7 +18,8 @@ int ft_str_is_lowercase(char *str) {
     return 1;
 }
 
-int	main() {
+int	main()
+{
 	printf("%d", ft_str_is_lowercase("abc"));
     printf("\n%d", ft_str_is_lowercase("ABC"));
     printf("\n%d", ft_str_is_lowercase("123"));

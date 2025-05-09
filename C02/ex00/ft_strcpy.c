@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-char *ft_strcpy(char *dest, char *src) {
+char *ft_strcpy(char *dest, char *src)
+{
     int i = 0;
     
     while (src[i] != '\0') {
@@ -13,7 +14,8 @@ char *ft_strcpy(char *dest, char *src) {
     return dest;
 }
 
-int main(void) {
+int main(void)
+{
     char src[] = "Hello, World!";
     char dest[50];
 

@@ -1,6 +1,7 @@
 #include <unistd.h>
 
-void ft_putstr(char *str) {
+void ft_putstr(char *str)
+{
     int i = 0;
     
     while (str[i] != '\0') {
@@ -9,7 +10,8 @@ void ft_putstr(char *str) {
     }
 }
 
-int	main() {
+int	main()
+{
 	char *str = "Hello, World!\n";
 	ft_putstr(str);
 }

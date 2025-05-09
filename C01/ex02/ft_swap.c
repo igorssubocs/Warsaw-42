@@ -1,7 +1,8 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void	ft_swap(int *a, int *b) {
+void	ft_swap(int *a, int *b)
+{
 	int	c;
 
 	c = *a;
@@ -9,7 +10,8 @@ void	ft_swap(int *a, int *b) {
 	*b = c;
 }
 
-int main(void) {
+int main(void)
+{
     int x = 2;
     int y = 10;
 

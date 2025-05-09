@@ -1,6 +1,7 @@
 #include <unistd.h>
 
-void    ft_print_comb2(void) {
+void    ft_print_comb2(void)
+{
     char    num[5];
     char    i, j;
 
@@ -20,6 +21,7 @@ void    ft_print_comb2(void) {
 	}
 }
 
-int main() {
+int main()
+{
 	ft_print_comb2();
 }

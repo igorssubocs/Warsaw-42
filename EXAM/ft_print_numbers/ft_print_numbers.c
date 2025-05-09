@@ -20,13 +20,17 @@
 // 	}
 // }
 
-void ft_print_numbers(void) {
-    for (char i = '0'; i <= '9'; i++) {
+void ft_print_numbers(void)
+{
+    char    i;
+    
+    for (i = '0'; i <= '9'; i++) {
         write(1, &i, 1);
     }
     write(1, "\n", 1);
 }
 
-int     main(void) {
+int     main(void)
+{
     ft_print_numbers();
 }

@@ -1,7 +1,8 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_rev_int_tab(int *tab, int size) {
+void ft_rev_int_tab(int *tab, int size)
+{
     int i = 0;
 
     while (i < size / 2) {

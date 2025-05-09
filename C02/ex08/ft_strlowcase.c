@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-char *ft_strlowcase(char *str) {
+char *ft_strlowcase(char *str)
+{
     int i = 0;
 
     while (str[i] != '\0') {
@@ -13,7 +14,8 @@ char *ft_strlowcase(char *str) {
     return str;
 }
 
-int	main() {
+int	main()
+{
 	char str[] = "ABC";
 	printf("%s\n", ft_strlowcase(str));
 }

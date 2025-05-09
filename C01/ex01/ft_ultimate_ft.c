@@ -1,10 +1,12 @@
 #include <unistd.h>
 
-void ft_ultimate_ft(int *********nbr) {
+void ft_ultimate_ft(int *********nbr)
+{
     *********nbr = 42;
 }
 
-int main(void) {
+int main(void)
+{
     int tempNum;
     int *pointer1 = &tempNum;
     int **pointer2 = &pointer1;

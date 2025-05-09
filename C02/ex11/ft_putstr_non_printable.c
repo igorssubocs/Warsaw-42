@@ -1,10 +1,12 @@
 #include <unistd.h>
 
-void	ft_putchar(char c) {
+void	ft_putchar(char c)
+{
 	write(1, &c, 1);
 }
 
-int	ft_char_is_printable(char c) {
+int	ft_char_is_printable(char c)
+{
 	if (c >= 32 && c <= 126) {
         return 1;
     } else {
@@ -12,7 +14,8 @@ int	ft_char_is_printable(char c) {
     }
 }
 
-void	ft_putstr_non_printable(char *str) {
+void	ft_putstr_non_printable(char *str)
+{
 	int	i;
 	                                                            
 	i = 0;
@@ -30,7 +33,8 @@ void	ft_putstr_non_printable(char *str) {
 	}
 }
 
-int main () {
+int main ()
+{
 	ft_putstr_non_printable("Coucou\ntu vas bien ?");
 	ft_putchar('\n');
 } 

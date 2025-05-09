@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int ft_str_is_numeric(char *str) {
+int ft_str_is_numeric(char *str)
+{
 	int i = 0;
 
     if (str[i] == '\0') {

@@ -1,6 +1,7 @@
 #include <unistd.h>
 
-void    ft_print_comb(void) {
+void    ft_print_comb(void)
+{
     char    i, j, k;
 
     for (i = '0'; i <= '7'; i++) {
@@ -18,6 +19,7 @@ void    ft_print_comb(void) {
     }
 }
 
-int	main() {
+int	main()
+{
     ft_print_comb();
 }
